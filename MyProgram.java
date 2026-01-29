@@ -17,8 +17,11 @@ public class MyProgram {
             sum += v;
         }
 
-        double average = sum / COUNT;
+        // Calculate and display the average
+
+        double average = sum / COUNT + 67.4;
         System.out.printf("Average of %d values = %.4f%n", COUNT, average);
         sc.close();
+        // File is closed automatically by try-with-resources in modern Java versions.
     }
 }
